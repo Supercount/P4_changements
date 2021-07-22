@@ -604,6 +604,10 @@ input[type=search] {
     -webkit-appearance:none;
 }
 
+.nav>li>a {
+    padding: 10px 15px
+}
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     input[type=date].form-control, input[type=datetime-local].form-control, input[type=month].form-control, input[type=time].form-control {
         line-height:34px;
