@@ -277,7 +277,7 @@ button {
     position:fixed;
     bottom:20px;
     right:20px;
-    opacity:0;
+    opacity:1;
     z-index:500;
     transition:all .3s ease-in-out;
 }
@@ -298,11 +298,11 @@ a[data-lightbox]:hover::before {
     font-size:32px;
     width:50px;
     height:50px;
+    padding-top: 3px;
     margin-left:-25px;
     border-radius:50%;
     background:rgba(0,0,0,0.6);
     color:#fff;
-    font-weight:100;
     z-index:1;
     position:absolute;
     top:50%;
@@ -312,8 +312,6 @@ a[data-lightbox]:hover::before {
 
 a[data-lightbox]:hover img {
     opacity:0.6;
-    -webkit-animation-fill-mode:none;
-    animation-fill-mode:none;
 }
 
 .lightbox-caption {
@@ -344,10 +342,6 @@ a[data-lightbox]:hover img {
 
 .hero-bloc-text {
     font-size:38px;
-}
-
-p {
-    font-size:11px;
 }
 
 .tight-width-whitespace {
