@@ -57,7 +57,6 @@ button {
 }
 
 button, html input[type=button], input[type=reset], input[type=submit] {
-    -webkit-appearance:button;
     cursor:pointer;
 }
 
@@ -75,7 +74,6 @@ input {
 }
 
 input[type=checkbox], input[type=radio] {
-    -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
     padding:0;
@@ -84,59 +82,16 @@ input[type=checkbox], input[type=radio] {
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
     height:auto;
 }
+
 input[type=search] {
-    -webkit-box-sizing:content-box;
     -moz-box-sizing:content-box;
     box-sizing:content-box;
-    -webkit-appearance:textfield;
-}
-
-input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
-    -webkit-appearance:none;
 }
 
 textarea {
     overflow:auto;
 }
 
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-@media print {
-    *, :after, :before {
-        color:#000!important;
-        text-shadow:none!important;
-        background:0 0!important;
-        -webkit-box-shadow:none!important;
-        box-shadow:none!important;
-    }
-    a, a:visited {
-        text-decoration:underline;
-    }
-    a[href]:after {
-        content:" (" attr(href) ")";
-    }
-    a[href^="#"]:after, a[href^="javascript:"]:after {
-        content:"";
-    }
-    img {
-        page-break-inside:avoid;
-    }
-    img {
-        max-width:100%!important;
-    }
-    h2, h3, p {
-        orphans:3;
-        widows:3;
-    }
-    h2, h3 {
-        page-break-after:avoid;
-    }
-    .navbar {
-        display:none;
-    }
-    .label {
-        border:1px solid #000;
-    }
-}
 @font-face {
     font-family:'Glyphicons Halflings';
     src:url(../fonts/glyphicons-halflings-regular.eot);
@@ -148,13 +103,11 @@ textarea {
 }
 
 * {
-    -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
 }
 
 :after, :before {
-    -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
 }
@@ -437,27 +390,6 @@ ul ul {
     .col-md-1 {
         width:8.33333333%;
     }
-    .col-md-offset-12 {
-        margin-left:100%;
-    }
-    .col-md-offset-11 {
-        margin-left:91.66666667%;
-    }
-    .col-md-offset-10 {
-        margin-left:83.33333333%;
-    }
-    .col-md-offset-9 {
-        margin-left:75%;
-    }
-    .col-md-offset-2 {
-        margin-left:16.66666667%;
-    }
-    .col-md-offset-1 {
-        margin-left:8.33333333%;
-    }
-    .col-md-offset-0 {
-        margin-left:0;
-    }
 }
 
 @media (min-width:1200px) {
@@ -523,7 +455,6 @@ label {
 }
 
 input[type=search] {
-    -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
 }
@@ -557,12 +488,9 @@ input[type=checkbox]:focus, input[type=file]:focus, input[type=radio]:focus {
     line-height:1.42857143;
     color:#555;
     background-color:#fff;
-    background-image:none;
     border:1px solid #ccc;
     border-radius:4px;
-    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
     box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
-    -webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
     -o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
@@ -570,7 +498,6 @@ input[type=checkbox]:focus, input[type=file]:focus, input[type=radio]:focus {
 .form-control:focus {
     border-color:#66afe9;
     outline:0;
-    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
     box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
 }
 
@@ -598,10 +525,6 @@ input[type=checkbox]:focus, input[type=file]:focus, input[type=radio]:focus {
 
 textarea.form-control {
     height:auto;
-}
-
-input[type=search] {
-    -webkit-appearance:none;
 }
 
 .nav>li>a {
@@ -682,13 +605,11 @@ textarea.input-lg {
 
 .has-success .form-control {
     border-color:#3c763d;
-    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
     box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
 }
 
 .has-success .form-control:focus {
     border-color:#2b542c;
-    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #67b168;
     box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #67b168;
 }
 	
@@ -728,13 +649,11 @@ textarea.input-lg {
 .btn:active {
     background-image:none;
     outline:0;
-    -webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);
     box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);
 }
 
 .btn[disabled] {
     cursor:not-allowed;
-    -webkit-box-shadow:none;
     box-shadow:none;
     opacity:0.65;
 }
@@ -816,7 +735,6 @@ textarea.input-lg {
 
 .btn-link, .btn-link:active, .btn-link[disabled] {
     background-color:transparent;
-    -webkit-box-shadow:none;
     box-shadow:none;
 }
 
@@ -1083,7 +1001,6 @@ img {
     overflow-x:visible;
     -webkit-overflow-scrolling:touch;
     border-top:1px solid transparent;
-    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.1);
     box-shadow:inset 0 1px 0 rgba(255,255,255,0.1);
 }
 
@@ -1091,14 +1008,13 @@ img {
    .navbar-collapse {
        width:auto;
        border-top:0;
-       -webkit-box-shadow:none;
        box-shadow:none;
     }
    .navbar-collapse.collapse {
-       display:block!important;
-       height:auto!important;
+       display:block;
+       height:auto;
        padding-bottom:0;
-       overflow:visible!important;
+       overflow:visible;
     }
 }
 
@@ -1192,7 +1108,6 @@ img {
     margin-left:-15px;
     border-top:1px solid transparent;
     border-bottom:1px solid transparent;
-    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.1);
     box-shadow:inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.1);
 }
 
@@ -1238,7 +1153,6 @@ img {
         margin-right:0;
         margin-left:0;
         border:0;
-        -webkit-box-shadow:none;
         box-shadow:none;
     }
 }
@@ -1377,22 +1291,6 @@ a.label:focus, a.label:hover {
     background-color:#449d44;
 }
 
-@-webkit-keyframes progress-bar-stripes {
-    from {
-        background-position:40px 0;
-    }
-    to {
-        background-position:0 0;
-    }
-}
-@-o-keyframes progress-bar-stripes {
-    from {
-        background-position:40px 0;
-    }
-    to {
-        background-position:0 0;
-    }
-}
 @keyframes progress-bar-stripes {
     from {
         background-position:40px 0;
