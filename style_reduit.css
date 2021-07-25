@@ -610,9 +610,3 @@ h1, h4 {
         padding:5px;
     }
 }
-@media (max-width:400px) {
-    .bloc {
-        padding-left:0;
-        padding-right:0;
-    }
-} 
