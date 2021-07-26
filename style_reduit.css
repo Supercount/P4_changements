@@ -18,7 +18,7 @@ body {
 
 a, button {
     transition:all .3s ease-in-out;
-    outline:0;
+    outline:none;
 }
 
 a:hover {
@@ -311,6 +311,7 @@ a[data-lightbox]:hover::before {
     border-radius:50%;
     background:rgba(0,0,0,0.6);
     color:#fff;
+    font-weight: 100;
     z-index:1;
     position:absolute;
     top:50%;
@@ -320,6 +321,8 @@ a[data-lightbox]:hover::before {
 
 a[data-lightbox]:hover img {
     opacity:0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
 }
 
 .lightbox-caption {
@@ -442,6 +445,10 @@ h1, h4 {
 
 .tc-white {
     color:#f8bfa5;
+}
+.col-sm-12 h2{
+    color: #b8440f;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
