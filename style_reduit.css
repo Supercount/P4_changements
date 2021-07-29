@@ -131,7 +131,8 @@ a:hover {
 }
 
 .row-no-gutters {
-    margin-right:0;margin-left:0;
+    margin-right:0;
+    margin-left:0;
 }
 
 #bloc-1-hero h1 {
@@ -658,6 +659,20 @@ footer p {
     }
     li:hover {
         background:rgba(0,0,0,0.08);
+    }
+    ul.social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .social li {
+        background: none;
+        border: none;
+        margin-bottom: 5px;
+    }
+    .social li:hover {
+        background: none;
     }
     #hero-bloc .navbar .nav {
         background:rgba(0,0,0,0.8);
