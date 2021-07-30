@@ -1,10 +1,10 @@
 @font-face {
     font-family: Helvetica;
-    src: url(/fonts/Helvetica.ttf) format('truetype'),
-    url(/fonts/Helvetica-Oblique.ttf) format('truetype'),
-    url(/fonts/Helvetica-Bold.ttf) format('truetype'),
-    url(/fonts/Helvetica-BoldOblique.ttf) format('truetype'),
-    url(/fonts/helvetica-light-587ebe5a59211.ttf) format('truetype');
+    src: url('fonts/Helvetica.ttf') format('truetype'),
+    url('fonts/Helvetica-Oblique.ttf') format('truetype'),
+    url('fonts/Helvetica-Bold.ttf') format('truetype'),
+    url('fonts/Helvetica-BoldOblique.ttf') format('truetype'),
+    url('fonts/helvetica-light-587ebe5a59211.ttf') format('truetype');
 }
 
 body {
