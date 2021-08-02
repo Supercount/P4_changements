@@ -101,7 +101,7 @@ a:hover {
 .d-bloc .navbar-toggle .icon-bar {
     background:white;
 }
-	
+
 .l-bloc {
     color:rgba(0,0,0,0.5);
 }
@@ -221,19 +221,6 @@ li a:hover {
         margin-right:0;
         margin-top:20px;
     }
-}
-
-.presentation {
-    max-width: 60%;
-    margin: auto;
-    margin-bottom: 20px;
-    font-size: 25px;
-}
-
-.presentation2 {
-    max-width: 45%;
-    margin: auto;
-    font-size: 25px;
 }
 
 .citation {
@@ -536,7 +523,8 @@ h1, h4 {
 .tc-white {
     color:#f8bfa5;
 }
-.col-sm-12 h2{
+
+.col-sm-12 h3{
     color: #f8bfa5;
     font-weight: bold;
 }
@@ -580,6 +568,20 @@ footer p {
 
 .bg-presentation {
     background-image:url(img/image-de-presentation.jpg);
+}
+
+.presentation {
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.presentation2 {
+    color: #575757;
+    max-width: 45%;
+    margin: auto;
+    font-size: 25px;
 }
 
 @media (max-width:1024px) {
