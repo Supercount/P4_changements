@@ -9,9 +9,8 @@
     font-style:normal;
 }
 
-.et-icon-browser, .et-icon-dribbble, .et-icon-edit, .et-icon-facebook, .et-icon-presentation, .et-icon-target, .et-icon-twitter {
+.et-icon-browser, .et-icon-edit, .et-icon-presentation, .et-icon-target {
     font-family:et-line;
-    /* speak:none; */
     font-style:normal;
     font-weight:400;
     font-variant:normal;
@@ -37,15 +36,3 @@
 .et-icon-target:before {
     content:"\e04e";
 }
-
-.et-icon-facebook:before {
-    content:"\e05d";
-}
-
-.et-icon-twitter:before {
-    content:"\e05e";
-}
-
-.et-icon-dribbble:before {
-    content:"\e063";
-} 
